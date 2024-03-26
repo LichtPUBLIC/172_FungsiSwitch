@@ -74,8 +74,14 @@ int main()
         case 5;
             break;
 
+        default:
+            cout << "Pilihan tidak valid" << endl;
+            system("pause");
+            break;
         }
-    }
+    } while (Pilihan != 5); //! adalah tidak sama dengan
+        
+    return 0;
 
 }
 
