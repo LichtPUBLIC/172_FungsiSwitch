@@ -59,7 +59,13 @@ int main()
             system("pause");
             break;
 
+        case 3:
+            inputData();
+            cout << "\nHasil perkalian: " << perkalian(bilangan1, bilangan2) << endl;
+            system("pause");
+            break;
 
+        
         }
     }
 
