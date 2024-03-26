@@ -71,7 +71,7 @@ int main()
             system("pause");
             break;
 
-        case 5;
+        case 5:
             break;
 
         default:
@@ -79,7 +79,7 @@ int main()
             system("pause");
             break;
         }
-    } while (Pilihan != 5); //! adalah tidak sama dengan
+    } while (pilihan != 5); //! adalah tidak sama dengan
         
     return 0;
 
