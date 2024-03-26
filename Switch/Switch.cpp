@@ -65,7 +65,11 @@ int main()
             system("pause");
             break;
 
-        
+        case 4:
+            inputData();
+            cout << "\nHasil pembagian: " << pembagian(bilangan1, bilangan2) << endl;
+            system("pause");
+            break;
         }
     }
 
