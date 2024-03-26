@@ -13,6 +13,7 @@ int fungsiLuas(int p, int l)
     return p * l;
 }
 
+int main()
 
 
 
